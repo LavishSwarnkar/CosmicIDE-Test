@@ -1,9 +1,12 @@
 package com.lavish
 
 public final class Main {
+
+	class User(
+		val name: String
+	)
+
 	public fun main(args: Array<String>) {
-		repeat(5) {
-			println("Ok")
-		}
+		val user = User("Apple")
 	}
 }
